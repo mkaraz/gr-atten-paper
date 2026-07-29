@@ -1,0 +1,24 @@
+# GitHub Pages configuration for the public paper site
+# This file tells Jekyll how to build the page. It applies to the rendered
+# Pages website; GitHub's raw file view renders Markdown and math on its own.
+
+title: AVO-Preserving Ground-Roll Attenuation
+description: >-
+  A label-free, AVO-preserving deep-learning workflow for ground-roll
+  attenuation, trained on calibrated synthetic data and validated on the
+  USGS Alaska 2D land line 31-81.
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+kramdown:
+  # Leave $...$ and $$...$$ untouched so the MathJax loader in index.md can
+  # typeset them. Setting this to 'mathjax' would rewrite the math into a form
+  # the CDN script does not pick up, and equations would fail to render.
+  math_engine: null
+  input: GFM
+  syntax_highlighter: rouge
+
+# Files Jekyll should not copy into the built site.
+exclude:
+  - README.md
