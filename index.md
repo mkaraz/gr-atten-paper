@@ -516,6 +516,68 @@ decisions, diagnostic interpretations, parameter trade-offs, and all scientific 
 author's own, as is responsibility for the content. AI systems are not credited as authors, consistent
 with the principle that authorship entails accountability for the work.
 
+
+<style>
+:root{
+  --bg:#0d1117; --panel:#161b22; --text:#e6edf3; --muted:#9da7b3;
+  --accent:#58a6ff; --accent2:#79c0ff; --border:#232a33; --rule:#2d333b;
+}
+html,body{
+  background:var(--bg)!important; color:var(--text)!important;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  line-height:1.7; -webkit-font-smoothing:antialiased;
+}
+/* Cayman theme overrides */
+.page-header{
+  background:linear-gradient(135deg,#0b1e33 0%,#0d1117 60%,#131a26 100%)!important;
+  color:var(--text)!important; border-bottom:1px solid var(--border);
+  padding:2.5rem 1rem!important;
+}
+.project-name{color:#fff!important; font-weight:700; letter-spacing:-0.5px;}
+.project-tagline{color:var(--muted)!important;}
+.main-content{
+  max-width:820px; margin:0 auto; padding:2.5rem 1.4rem 4rem!important;
+  color:var(--text)!important; background:transparent!important;
+}
+.main-content h1,.main-content h2,.main-content h3{
+  color:#fff!important; font-weight:650; letter-spacing:-0.3px;
+  margin-top:2.2rem; margin-bottom:0.8rem;
+}
+.main-content h2{border-bottom:1px solid var(--rule); padding-bottom:0.35rem;}
+.main-content h3{color:var(--accent2)!important; font-weight:600;}
+.main-content a{color:var(--accent)!important; text-decoration:none;}
+.main-content a:hover{text-decoration:underline;}
+.main-content strong{color:#fff!important;}
+.main-content em{color:#d7dde3;}
+/* images: framed, centered, subtle */
+.main-content img{
+  display:block; margin:1.6rem auto; max-width:100%; border-radius:10px;
+  background:#fff; padding:10px; box-shadow:0 6px 24px rgba(0,0,0,.45);
+  border:1px solid var(--border);
+}
+/* tables */
+.main-content table{border-collapse:collapse; margin:1.4rem 0; width:100%;}
+.main-content table th,.main-content table td{
+  border:1px solid var(--border)!important; padding:.5rem .8rem!important;
+  background:var(--panel)!important; color:var(--text)!important;
+}
+.main-content table th{background:#1c2430!important; color:#fff!important;}
+/* code + math */
+.main-content code{
+  background:#1c2430!important; color:#e6edf3!important;
+  padding:.15rem .4rem; border-radius:5px; font-size:.9em;
+}
+.main-content pre{background:#1c2430!important; border:1px solid var(--border); border-radius:8px;}
+mjx-container{color:var(--text)!important; overflow-x:auto; overflow-y:hidden;}
+/* horizontal rules */
+.main-content hr{border:0; border-top:1px solid var(--rule); margin:2.2rem 0;}
+/* blockquote / caption emphasis */
+.main-content p{margin:0.9rem 0;}
+/* hide the theme's footer credit for a cleaner look */
+.site-footer{border-top:1px solid var(--border)!important; color:var(--muted)!important;}
+.site-footer a{color:var(--accent)!important;}
+</style>
+
 <!-- MathJax -->
 <script>
 window.MathJax = {
